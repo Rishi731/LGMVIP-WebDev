@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI';
+}
+
+body{
+    display:block;
+    background-image: url("./images/bgrnd.jfif");
+    background-repeat: no-repeat;
+    background-size:cover ;
+}
+
+.container
+{
+    position: relative;
+    left:0px;
+   
+}
+
+.header
+ {
+    height: 90px;
+    width:100%; 
+    /* background-size: 300px; */
+    background-repeat: no-repeat;
+    border-bottom:2px solid #fafdfc;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 65px;
+    font-weight: bold;
+    color: mintcream;
+    background-color: dimgrey;
+}
+
+.txtt{
+    padding-left: 20px;
+}
+
+.btn{
+    position: absolute;
+    top: -8px;
+    right: 20px;
+}
+
+button{
+    color: white;
+    height: 50px;
+    width: 130px;
+    background-image: linear-gradient(rgb(0,0,0),rgb(0,0,0));
+    border-radius: 20px;
+    cursor: pointer;
+    
+}
+
+#data
+{
+    width:99%;
+    height:550px;
+    text-align: right;
+    justify-content: center;
+    display: flex;   
+    
+}
+
+.table
+{
+    width: 1200px;
+
+}
+
+table{
+    color:black;
+    font-size: 20px;
+    font: 700;
+    cursor: pointer;
+}
+
+table tr :hover{
+    background-image: linear-gradient(rgb(123, 135, 143),rgb(123, 135, 143)) ;
+    /* clip-path: circle(); */
+}
+
+footer{
+    height: 56.99px;
+    background-color: dimgrey;
+    color: white;
+}
+
+.flex-all-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
